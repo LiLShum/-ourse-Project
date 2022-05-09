@@ -165,7 +165,7 @@ body.index {
   background-repeat: no-repeat;
 }
 
-aside.index {
+main.index {
   display: -ms-grid;
   display: grid;
   width: 92%;
@@ -175,12 +175,12 @@ aside.index {
       grid-template-columns: 9% 9% 9% 9% 9% 9% 9% 9% 9% 9% 9%;
 }
 
-aside.index a img {
+main.index a img {
   width: 100%;
   height: 100%;
 }
 
-aside.index > .sp2:nth-child(4) {
+main.index > .sp2:nth-child(4) {
   -ms-grid-row: 2;
   grid-row: 2;
   -ms-grid-column: 1;
@@ -188,30 +188,30 @@ aside.index > .sp2:nth-child(4) {
   grid-column: 1/5;
 }
 
-aside.index > .sp2:nth-child(2) {
+main.index > .sp2:nth-child(2) {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-column: 1/5;
 }
 
-aside.index > .cl2 {
+main.index > .cl2 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 4;
   grid-row: 1/5;
 }
 
-aside.index > a.sp2.cl2 img {
+main.index > a.sp2.cl2 img {
   height: 100%;
 }
 
-aside.index > .sp2:nth-child(3) {
+main.index > .sp2:nth-child(3) {
   grid-row: 2 span;
   -ms-grid-column: 5;
   -ms-grid-column-span: 4;
   grid-column: 5/9;
 }
 
-aside.index > .hh {
+main.index > .hh {
   background-color: #000000;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -231,11 +231,11 @@ aside.index > .hh {
           justify-content: center;
 }
 
-aside.index > .hh img {
+main.index > .hh img {
   height: calc(93.1%);
 }
 
-aside.index > .hh > h1 {
+main.index > .hh > h1 {
   letter-spacing: 11px;
   color: #FFFFFF;
   -webkit-writing-mode: vertical-lr;
@@ -244,37 +244,37 @@ aside.index > .hh > h1 {
   text-orientation: upright;
 }
 
-aside.index > .sp4 {
+main.index > .sp4 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
 }
 
-aside.index > .half1 {
+main.index > .half1 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-column: 1/5;
 }
 
-aside.index > .half2 {
+main.index > .half2 {
   -ms-grid-column: 5;
   -ms-grid-column-span: 6;
   grid-column: 5/11;
 }
 
-aside.index > .half3 {
+main.index > .half3 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 6;
   grid-column: 1/7;
 }
 
-aside.index > .half4 {
+main.index > .half4 {
   -ms-grid-column: 7;
   -ms-grid-column-span: 4;
   grid-column: 7/11;
 }
 
-aside.index > .hh2 {
+main.index > .hh2 {
   background-color: #000000;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -294,12 +294,12 @@ aside.index > .hh2 {
   padding: 25px 0;
 }
 
-aside.index > .hh2 > h1 {
+main.index > .hh2 > h1 {
   letter-spacing: 12px;
   color: #FFFFFF;
 }
 
-aside.index > .hh3 {
+main.index > .hh3 {
   background-color: #000000;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -320,7 +320,7 @@ aside.index > .hh3 {
   padding: 25px 0;
 }
 
-aside.index > .hh3 > h1 {
+main.index > .hh3 > h1 {
   letter-spacing: 20px;
   color: #FFFFFF;
   -webkit-writing-mode: vertical-lr;
@@ -329,31 +329,31 @@ aside.index > .hh3 > h1 {
   text-orientation: upright;
 }
 
-aside.index > .half5 {
+main.index > .half5 {
   -ms-grid-column: 3;
   -ms-grid-column-span: 5;
   grid-column: 3/8;
 }
 
-aside.index > .half6 {
+main.index > .half6 {
   -ms-grid-column: 8;
   -ms-grid-column-span: 3;
   grid-column: 8/11;
   border: 1px solid #FFFFFF;
 }
 
-aside.index > .half6 img {
+main.index > .half6 img {
   height: 96%;
 }
 
-aside.index > .half7 {
+main.index > .half7 {
   -ms-grid-column: 3;
   -ms-grid-column-span: 4;
   grid-column: 3/7;
   height: 100%;
 }
 
-aside.index > .half8 {
+main.index > .half8 {
   -ms-grid-column: 7;
   -ms-grid-column-span: 4;
   grid-column: 7/11;

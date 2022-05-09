@@ -133,7 +133,9 @@ footer {
           align-items: center;
 }
 
-footer h1, footer div p, footer div a {
+footer h1,
+footer div p,
+footer div a {
   color: #FFFFFF;
 }
 
@@ -166,11 +168,11 @@ body {
   background-repeat: no-repeat;
 }
 
-aside.aside {
+main.main {
   width: 100%;
 }
 
-aside.aside form {
+main.main form {
   width: 450px;
   padding: 65px 0;
   margin: 40px auto;
@@ -181,21 +183,21 @@ aside.aside form {
   grid-row-gap: 15px;
 }
 
-aside.aside form label {
+main.main form label {
   color: #FFFFFF;
   display: block;
   text-align: right;
   padding-right: 10px;
 }
 
-aside.aside form input {
+main.main form input {
   padding: 5px 10px;
   border: none;
   width: 86%;
   border-radius: 5px;
 }
 
-aside.aside form div {
+main.main form div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,17 +206,17 @@ aside.aside form div {
           align-items: center;
 }
 
-aside.aside form div input[type="radio"] {
+main.main form div input[type="radio"] {
   width: auto;
   margin-right: 10px;
 }
 
-aside.aside form div label img {
+main.main form div label img {
   width: 30px;
   padding-top: 3px;
 }
 
-aside.aside form input[type="submit"] {
+main.main form input[type="submit"] {
   width: calc( 90% + 10px);
 }
 
@@ -228,18 +230,18 @@ footer {
 }
 
 @media all and (max-width: 500px) {
-  aside.aside {
+  main.main {
     width: 92%;
     margin: 0 auto;
   }
-  aside.aside form {
+  main.main form {
     margin: 10px auto;
     padding: 0;
     width: 100%;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
   }
-  aside.aside form label {
+  main.main form label {
     text-align: left;
   }
 }

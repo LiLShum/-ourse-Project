@@ -170,7 +170,7 @@ body {
   background-repeat: no-repeat;
 }
 
-aside.otziv {
+main.otziv {
   display: -ms-grid;
   display: grid;
   height: auto;
@@ -181,16 +181,16 @@ aside.otziv {
   grid-column-gap: 5%;
 }
 
-aside.otziv img,
-aside.otziv p {
+main.otziv img,
+main.otziv p {
   margin-bottom: 50px;
 }
 
-aside.otziv img {
+main.otziv img {
   width: 100%;
 }
 
-aside.otziv p {
+main.otziv p {
   background-color: #C4C4C4;
   padding: 20px;
   font-size: 2em;
@@ -198,7 +198,7 @@ aside.otziv p {
 }
 
 @media all and (max-width: 500px) {
-  aside.otziv p {
+  main.otziv p {
     font-size: 1em;
   }
 }

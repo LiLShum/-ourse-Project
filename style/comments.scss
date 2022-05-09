@@ -149,7 +149,7 @@ body {
     background-repeat: no-repeat;
 }
 
-aside.otziv {
+main.otziv {
     display: grid;
     height: auto;
     grid-template-columns: 15% 80%;
@@ -172,7 +172,7 @@ aside.otziv {
 }
 
 @media all and (max-width: 500px) {
-    aside.otziv p {
+    main.otziv p {
         font-size: 1em;
     }
 }

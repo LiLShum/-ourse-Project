@@ -167,7 +167,7 @@ body.part {
     background-color: $wh;
 }
 
-aside.part {
+main.part {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     width: 94%;
@@ -206,7 +206,7 @@ aside.part {
         }
         >img {
             width: 90%;
-            margin-top: 40px;
+            margin-top: 15%;
         }
     }
     >.units {
