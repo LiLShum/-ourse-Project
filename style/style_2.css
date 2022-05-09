@@ -1,0 +1,336 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-decoration: none;
+  font-family: 'Play', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+header.header {
+  background-color: #000000;
+}
+
+.none {
+  display: none;
+}
+
+.menu__box {
+  list-style: none;
+}
+
+.menu__box > li > img,
+header input,
+.submenu,
+label,
+#menu__toggle {
+  display: none;
+}
+
+.menu__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-logo {
+  padding-top: 15px;
+}
+
+.main-logo img {
+  height: 100%;
+}
+
+.menu__box,
+.menu__box li,
+.menu__item {
+  height: 100%;
+}
+
+.menu__box > li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 0 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header,
+.menu__box,
+.menu__item {
+  padding-top: 0;
+  margin-top: 0;
+  height: 100px;
+}
+
+.menu__box > li:hover {
+  background-color: #000000;
+}
+
+.header {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .hamburger-menu .menu__box li .submenu {
+  display: none;
+  opacity: 0;
+}
+
+.header .hamburger-menu .menu__box li .submenu li {
+  list-style: none;
+  padding: 10px 0;
+  background-color: #000000;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.header .hamburger-menu .menu__box li .submenu li:last-child {
+  border-radius: 0 0 20px 20px;
+}
+
+.header .hamburger-menu .menu__box li .submenu li .nav-link {
+  color: #FFFFFF;
+}
+
+.header .hamburger-menu .menu__box li:hover .submenu {
+  display: block;
+  opacity: 1;
+  position: absolute;
+}
+
+footer {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 13% 18% 20% 18% 30%;
+      grid-template-columns: 13% 18% 20% 18% 30%;
+  background-color: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h1,
+footer div p,
+footer div a {
+  color: #FFFFFF;
+}
+
+footer img {
+  width: 100%;
+}
+
+footer .icons-footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  grid-row-gap: 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .icons-footer img {
+  width: 50%;
+}
+
+footer {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 13% 18% 20% 18% 30%;
+      grid-template-columns: 13% 18% 20% 18% 30%;
+  background-color: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h1,
+footer div p,
+footer div a {
+  color: #FFFFFF;
+}
+
+footer img {
+  width: 100%;
+}
+
+footer .icons-footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  grid-row-gap: 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .icons-footer img {
+  width: 50%;
+}
+
+body.part {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+aside.part {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20%;
+  width: 94%;
+  grid-column-gap: 10px;
+  margin: 50px 3%;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+}
+
+aside.part > .many-logo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #000000;
+  -webkit-box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+aside.part > .many-logo > img {
+  height: 80%;
+}
+
+aside.part > hr {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/6;
+  width: 100%;
+  background-color: #000000;
+}
+
+aside.part > .unity-left {
+  -webkit-box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  -ms-grid-column: 1;
+  grid-column: 1;
+  height: 1250px;
+  text-align: center;
+  border: 1px solid #000000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+aside.part > .unity-left > a {
+  color: #000000;
+  text-decoration: underline;
+  padding: auto 20px;
+}
+
+aside.part > .unity-left > img {
+  width: 90%;
+  margin-top: 40px;
+}
+
+aside.part > .units {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-column: 2/6;
+  width: 100%;
+}
+
+aside.part > .units > .unit {
+  -webkit-box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  padding: 25px 0;
+  /* width: 100%; */
+  grid-column-gap: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 65%;
+      grid-template-columns: 30% 65%;
+  border: 1px solid #000000;
+}
+
+aside.part > .units > .unit > img {
+  width: 100%;
+  padding: 20px;
+}
+
+aside.part > .units > .unit > div > h1 {
+  padding-bottom: 10px;
+  font-weight: bold;
+  width: 90%;
+}
+
+aside.part > .units > .unit > div {
+  width: 95%;
+}
+
+aside.part > .units > .unit > div > p {
+  width: 60%;
+}
+
+aside.part > .units > .unit > div form {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  text-align: right;
+}
+
+aside.part > .units > .unit > div form > .button {
+  background-color: #F99532;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+aside.part > .units > .unit > div form > .button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+aside.part .unit:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+/*# sourceMappingURL=style_2.css.map */

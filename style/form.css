@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-decoration: none;
+  font-family: 'Play', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+header.header {
+  background-color: #000000;
+}
+
+.none {
+  display: none;
+}
+
+.menu__box {
+  list-style: none;
+}
+
+.menu__box > li > img,
+header input,
+.submenu,
+label,
+#menu__toggle {
+  display: none;
+}
+
+.menu__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-logo {
+  padding-top: 15px;
+}
+
+.main-logo img {
+  width: 250px;
+}
+
+.menu__box,
+.menu__box li,
+.menu__item {
+  height: 100%;
+}
+
+.menu__box > li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 0 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header,
+.menu__box,
+.menu__item {
+  padding-top: 0;
+  margin-top: 0;
+  height: 100px;
+}
+
+.menu__box > li:hover {
+  background-color: #000000;
+}
+
+.header {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .hamburger-menu .menu__box li .submenu {
+  display: none;
+  opacity: 0;
+}
+
+.header .hamburger-menu .menu__box li .submenu li {
+  list-style: none;
+  padding: 10px 0;
+  background-color: #000000;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.header .hamburger-menu .menu__box li .submenu li:last-child {
+  border-radius: 0 0 20px 20px;
+}
+
+.header .hamburger-menu .menu__box li .submenu li .nav-link {
+  color: #FFFFFF;
+}
+
+.header .hamburger-menu .menu__box li:hover .submenu {
+  display: block;
+  opacity: 1;
+  position: absolute;
+}
+
+footer {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 13% 18% 20% 18% 30%;
+      grid-template-columns: 13% 18% 20% 18% 30%;
+  background-color: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h1, footer div p, footer div a {
+  color: #FFFFFF;
+}
+
+footer img {
+  width: 100%;
+}
+
+footer .icons-footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  grid-row-gap: 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .icons-footer img {
+  width: 50%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../image/bg1.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #000000;
+  background-repeat: no-repeat;
+}
+
+aside.aside {
+  width: 100%;
+}
+
+aside.aside form {
+  width: 450px;
+  padding: 65px 0;
+  margin: 40px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  grid-row-gap: 15px;
+}
+
+aside.aside form label {
+  color: #FFFFFF;
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+}
+
+aside.aside form input {
+  padding: 5px 10px;
+  border: none;
+  width: 86%;
+  border-radius: 5px;
+}
+
+aside.aside form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+aside.aside form div input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+aside.aside form div label img {
+  width: 30px;
+  padding-top: 3px;
+}
+
+aside.aside form input[type="submit"] {
+  width: calc( 90% + 10px);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  position: static;
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+@media all and (max-width: 500px) {
+  aside.aside {
+    width: 92%;
+    margin: 0 auto;
+  }
+  aside.aside form {
+    margin: 10px auto;
+    padding: 0;
+    width: 100%;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  aside.aside form label {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=form.css.map */
