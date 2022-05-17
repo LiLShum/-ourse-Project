@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <unit>
+        <name>Видеокарта ASUS ROG GeForce RTX 3050</name>
+        <image>"../image/RTX 3050 2.png"</image>
+    </unit>
+    <unit>
+        <name>Видеокарта MSI GeForce GTX 1660 Super</name>
+        <image>"../image/GTX 1660s 1.png"</image>
+    </unit>
+    <unit>
+        <name>Видеокарта PNY Quadro RTX A6000</name>
+        <image>"../image/RTX A6000 1.png"</image>
+    </unit>
+    <unit>
+        <name>Видеокарта Gigabyte GeForce RTX 3080</name>
+        <image>"../image/csm_geforce_rtx_3080_fe_be5300b13c 1.png"</image>
+    </unit>
+    <unit>
+        <name>Видеокарта Gigabyte GeForce RTX 3070 Ti</name>
+        <image>"../image/gigabyte_geforce_rtx_3070_ti_vision_oc_8g__rev__2_0__1-removebg-preview 1.png"</image>
+    </unit>
+    <unit>
+        <name>Видеокарта Gigabyte Radeon RX 6600 XT</name>
+        <image>"../image/238437_1-removebg-preview 1.png"</image>
+    </unit>
+    <unit>
+        <name>Видеокарта XFX Speedster MERC 319 RX 6900 XT</name>
+        <image>"../image/RX 6900 1.png"</image>
+    </unit>
+    <unit>
+        <name>Видеокарта MSI GeForce RTX 3060 Ventus</name>
+        <image>"../image/3060 1.png"</image>
+    </unit>
+</catalog>
