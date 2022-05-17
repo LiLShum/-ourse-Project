@@ -158,43 +158,6 @@ footer .icons-footer img {
   width: 50%;
 }
 
-footer {
-  margin-top: 50px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 13% 18% 20% 18% 30%;
-      grid-template-columns: 13% 18% 20% 18% 30%;
-  background-color: #000000;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer h1,
-footer div p,
-footer div a {
-  color: #FFFFFF;
-}
-
-footer img {
-  width: 100%;
-}
-
-footer .icons-footer {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20% 80%;
-      grid-template-columns: 20% 80%;
-  grid-row-gap: 7px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer .icons-footer img {
-  width: 50%;
-}
-
 body.part {
   width: 100%;
   background-color: #FFFFFF;
@@ -248,7 +211,7 @@ main.part > .unity-left {
           box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
   -ms-grid-column: 1;
   grid-column: 1;
-  height: 1250px;
+  height: 1450px;
   text-align: center;
   border: 1px solid #000000;
   -webkit-box-pack: center;
@@ -259,12 +222,12 @@ main.part > .unity-left {
 main.part > .unity-left > a {
   color: #000000;
   text-decoration: underline;
-  padding: auto 20px;
+  padding: auto 15px;
 }
 
 main.part > .unity-left > img {
-  width: 90%;
-  margin-top: 15%;
+  width: 95%;
+  margin-top: 10%;
 }
 
 main.part > .units {
@@ -279,7 +242,6 @@ main.part > .units > .unit {
           box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 20px;
   padding: 25px 0;
-  /* width: 100%; */
   grid-column-gap: 50px;
   display: -ms-grid;
   display: grid;

@@ -17,6 +17,25 @@
     }
 }
 
+@media screen and (max-width: 1300px) {
+    main.part {
+        width: 84%;
+        margin: 5%;
+        grid-gap: 1%;
+    }
+    main.part .unity-left {
+        height: 1100px;
+    }
+    main.part .units .unit {
+        -ms-grid-columns: 25% 70%;
+        grid-template-columns: 25% 70%;
+        grid-gap: 0;
+    }
+    main.part .units .unit img {
+        width: 60%;
+    }
+}
+
 @media screen and (max-width: 1042px) {
     main.part .many-logo img {
         height: 60%;

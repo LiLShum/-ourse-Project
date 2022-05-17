@@ -137,31 +137,6 @@ footer {
     }
 }
 
-footer {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: 13% 18% 20% 18% 30%;
-    background-color: $bl;
-    align-items: center;
-    h1,
-    div p,
-    div a {
-        color: $wh;
-    }
-    img {
-        width: 100%;
-    }
-    .icons-footer {
-        display: grid;
-        grid-template-columns: 20% 80%;
-        grid-row-gap: 7px;
-        align-items: center;
-        img {
-            width: 50%;
-        }
-    }
-}
-
 body.part {
     width: 100%;
     background-color: $wh;
@@ -195,18 +170,18 @@ main.part {
     >.unity-left {
         box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
         grid-column: 1;
-        height: 1250px;
+        height: 1450px;
         text-align: center;
         border: 1px solid $bl;
         justify-content: center;
         >a {
             color: $bl;
             text-decoration: underline;
-            padding: auto 20px;
+            padding: auto 15px;
         }
         >img {
-            width: 90%;
-            margin-top: 15%;
+            width: 95%;
+            margin-top: 10%;
         }
     }
     >.units {
@@ -216,7 +191,6 @@ main.part {
             box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
             margin-bottom: 20px;
             padding: 25px 0;
-            /* width: 100%; */
             grid-column-gap: 50px;
             display: grid;
             grid-template-columns: 30% 65%;
